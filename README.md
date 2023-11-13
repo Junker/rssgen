@@ -61,6 +61,10 @@ This system can be installed from [UltraLisp](https://ultralisp.org/) like this:
                                 :width 100
                                 :height 100
                                 :description "Logo description")
-              :skip-hours 23
+              :skip-hours (list 21 22 23)
               :skip-days (list "Saturday" "Sunday")))
 ```
+
+## Documentation
+
+- [RSS 2.0 Specification](https://www.rssboard.org/rss-specification)
